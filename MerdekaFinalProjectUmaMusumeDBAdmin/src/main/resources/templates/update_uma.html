@@ -41,43 +41,43 @@
     <h4>Update Uma</h4>
 
     <form action="#" th:action="@{/saveUma}" th:object="${uma}" method="POST">
-        <input type="text" th:field="*{gametora_id}" placeholder="Gametora ID" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{uma_name}" placeholder="Uma Name" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{star}" placeholder="Star" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{is_alter}" placeholder="Is Alter" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{alter_theme}" placeholder="Alter Theme" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{release_date}" placeholder="Release Date" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{height}" placeholder="Height (cm)" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{three_size_bust}" placeholder="Bust Size (cm)" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{three_size_waist}" placeholder="Waist Size (cm)" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{three_size_hips}" placeholder="Hips Size (cm)" class="form-control mb-4 col-4">
+        <br><a>Gametora ID</a><input type="text" th:field="*{gametora_id}" placeholder="Gametora ID" class="form-control mb-4 col-4">
+        <br><a>Uma Name</a><input type="text" th:field="*{uma_name}" placeholder="Uma Name" class="form-control mb-4 col-4">
+        <br><a>Star</a><input type="text" th:field="*{star}" placeholder="Star" class="form-control mb-4 col-4">
+        <br><a>Is Alter</a><input type="text" th:field="*{is_alter}" placeholder="Is Alter" class="form-control mb-4 col-4">
+        <br><a>Alter Theme</a><input type="text" th:field="*{alter_theme}" placeholder="Alter Theme" class="form-control mb-4 col-4">
+        <br><a>Release Date</a><input type="text" th:field="*{release_date}" placeholder="Release Date" class="form-control mb-4 col-4">
+        <br><a>Height</a><input type="text" th:field="*{height}" placeholder="Height (cm)" class="form-control mb-4 col-4">
+        <br><a>Bust Size</a><input type="text" th:field="*{three_size_bust}" placeholder="Bust Size (cm)" class="form-control mb-4 col-4">
+        <br><a>Waist Size</a><input type="text" th:field="*{three_size_waist}" placeholder="Waist Size (cm)" class="form-control mb-4 col-4">
+        <br><a>Hips Size</a><input type="text" th:field="*{three_size_hips}" placeholder="Hips Size (cm)" class="form-control mb-4 col-4">
 
-        <input type="text" th:field="*{surface_turf}" placeholder="Surface Turf" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{surface_dirt}" placeholder="Surface Dirt" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{distance_short}" placeholder="Short Distance" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{distance_mile}" placeholder="Mile Distance" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{distance_medium}" placeholder="Medium Distance" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{distance_long}" placeholder="Long Distance" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{strategy_runner}" placeholder="Runner Strategy" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{strategy_leader}" placeholder="Leader Strategy" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{strategy_betweener}" placeholder="Betweener Strategy" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{strategy_chaser}" placeholder="Chaser Strategy" class="form-control mb-4 col-4">
+        <br><a>Surface Turf</a><input type="text" th:field="*{surface_turf}" placeholder="Surface Turf" class="form-control mb-4 col-4">
+        <br><a>Surface Dirt</a><input type="text" th:field="*{surface_dirt}" placeholder="Surface Dirt" class="form-control mb-4 col-4">
+        <br><a>Short Distance</a><input type="text" th:field="*{distance_short}" placeholder="Short Distance" class="form-control mb-4 col-4">
+        <br><a>Mile Distance</a><input type="text" th:field="*{distance_mile}" placeholder="Mile Distance" class="form-control mb-4 col-4">
+        <br><a>Medium Distance</a><input type="text" th:field="*{distance_medium}" placeholder="Medium Distance" class="form-control mb-4 col-4">
+        <br><a>Long Distance</a><input type="text" th:field="*{distance_long}" placeholder="Long Distance" class="form-control mb-4 col-4">
+        <br><a>Runner Strategy</a><input type="text" th:field="*{strategy_runner}" placeholder="Runner Strategy" class="form-control mb-4 col-4">
+        <br><a>Leader Strategy</a><input type="text" th:field="*{strategy_leader}" placeholder="Leader Strategy" class="form-control mb-4 col-4">
+        <br><a>Betweener Strategy</a><input type="text" th:field="*{strategy_betweener}" placeholder="Betweener Strategy" class="form-control mb-4 col-4">
+        <br><a>Chaser Strategy</a><input type="text" th:field="*{strategy_chaser}" placeholder="Chaser Strategy" class="form-control mb-4 col-4">
 
-        <input type="text" th:field="*{initial_base_stats_speed}" placeholder="Initial Speed" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{initial_base_stats_stamina}" placeholder="Initial Stamina" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{initial_base_stats_power}" placeholder="Initial Power" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{initial_base_stats_guts}" placeholder="Initial Guts" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{initial_base_stats_wisdom}" placeholder="Initial Wisdom" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{upgraded_base_stats_speed}" placeholder="Upgraded Speed" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{upgraded_base_stats_stamina}" placeholder="Upgraded Stamina" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{upgraded_base_stats_power}" placeholder="Upgraded Power" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{upgraded_base_stats_guts}" placeholder="Upgraded Guts" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{upgraded_base_stats_wisdom}" placeholder="Upgraded Wisdom" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{stat_bonuses_speed}" placeholder="Speed Bonus" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{stat_bonuses_stamina}" placeholder="Stamina Bonus" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{stat_bonuses_power}" placeholder="Power Bonus" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{stat_bonuses_guts}" placeholder="Guts Bonus" class="form-control mb-4 col-4">
-        <input type="text" th:field="*{stat_bonuses_wisdom}" placeholder="Wisdom Bonus" class="form-control mb-4 col-4">
+        <br><a>Initial Speed</a><input type="text" th:field="*{initial_base_stats_speed}" placeholder="Initial Speed" class="form-control mb-4 col-4">
+        <br><a>Initial Stamina</a><input type="text" th:field="*{initial_base_stats_stamina}" placeholder="Initial Stamina" class="form-control mb-4 col-4">
+        <br><a>Initial Power</a><input type="text" th:field="*{initial_base_stats_power}" placeholder="Initial Power" class="form-control mb-4 col-4">
+        <br><a>Initial Guts</a><input type="text" th:field="*{initial_base_stats_guts}" placeholder="Initial Guts" class="form-control mb-4 col-4">
+        <br><a>Initial Wisdom</a><input type="text" th:field="*{initial_base_stats_wisdom}" placeholder="Initial Wisdom" class="form-control mb-4 col-4">
+        <br><a>Upgraded Speed</a><input type="text" th:field="*{upgraded_base_stats_speed}" placeholder="Upgraded Speed" class="form-control mb-4 col-4">
+        <br><a>Upgraded Stamina</a><input type="text" th:field="*{upgraded_base_stats_stamina}" placeholder="Upgraded Stamina" class="form-control mb-4 col-4">
+        <br><a>Upgraded Power</a><input type="text" th:field="*{upgraded_base_stats_power}" placeholder="Upgraded Power" class="form-control mb-4 col-4">
+        <br><a>Upgraded Guts</a><input type="text" th:field="*{upgraded_base_stats_guts}" placeholder="Upgraded Guts" class="form-control mb-4 col-4">
+        <br><a>Upgraded Wisdom</a><input type="text" th:field="*{upgraded_base_stats_wisdom}" placeholder="Upgraded Wisdom" class="form-control mb-4 col-4">
+        <br><a>Speed Bonus</a><input type="text" th:field="*{stat_bonuses_speed}" placeholder="Speed Bonus" class="form-control mb-4 col-4">
+        <br><a>Stamina Bonus</a><input type="text" th:field="*{stat_bonuses_stamina}" placeholder="Stamina Bonus" class="form-control mb-4 col-4">
+        <br><a>Power Bonus</a><input type="text" th:field="*{stat_bonuses_power}" placeholder="Power Bonus" class="form-control mb-4 col-4">
+        <br><a>Guts Bonus</a><input type="text" th:field="*{stat_bonuses_guts}" placeholder="Guts Bonus" class="form-control mb-4 col-4">
+        <br><a>Wisdom Bonus</a><input type="text" th:field="*{stat_bonuses_wisdom}" placeholder="Wisdom Bonus" class="form-control mb-4 col-4">
 
         <button type="submit" class="btn btn-info col-2"> Update Uma</button>
     </form>
