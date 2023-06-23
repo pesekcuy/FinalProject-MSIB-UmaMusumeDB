@@ -1,5 +1,8 @@
 # [FinalProject-MSIB-UmaMusumeDB](https://github.com/pesekcuy/FinalProject-MSIB-UmaMusumeDB/)
 
+Nama: Adi Nugroho
+Kelas Alpha
+
 Repositori ini adalah tempat menyimpan file-file untuk tugas akhir program MSIB "Java & Python for Data Science" yang diprakarsai oleh TIA Academy pada semester genap 2022/2023.
 
 Adapun konten dari repositori ini adalah:
